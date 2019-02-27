@@ -11,9 +11,9 @@ namespace Server.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly UserController _context;
+        private readonly TeacherCreditContext _context;
 
-        public UserController(UserContext context)
+        public UserController(TeacherCreditContext context)
         {
             _context = context;
 
