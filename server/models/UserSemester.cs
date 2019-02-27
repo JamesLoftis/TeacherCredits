@@ -1,7 +1,10 @@
-namespace server.models
+namespace Server.Models
 {
     public class UserSemester
     {
-        
+        public UserSemester()
+        {
+
+        }
     }
 }
